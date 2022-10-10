@@ -1,0 +1,27 @@
+name: VanillaFunTools
+version: '${project.version}'
+main: com.vanillafun.tools.VanillaFunTools
+api-version: 1.19
+commands:
+  god:
+    description: Toggles god mode.
+    usage: /god
+  feed:
+    description: Feeds the player.
+    usage: /feed
+  setspawn:
+    description: Set the server spawnpoint.
+    usage: /setspawn
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+  speed:
+    description: Change player speed.
+    usage: /speed (playerName) [amount] -s
+  fart:
+    description: Fart.
+    usage: /fart
+  fly:
+    description: Fly.
+    usage: /fly (playerName) [on/off]
+    permission: vft.fly
