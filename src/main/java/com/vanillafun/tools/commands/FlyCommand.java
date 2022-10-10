@@ -44,7 +44,7 @@ public class FlyCommand implements CommandExecutor {
 						}
 					}
 				}else{
-					if(p.hasPermission("vft.fly.others")){
+					if(!p.hasPermission("vft.fly.others")){
 						p.sendMessage(VanillaFunTools.Color("&cYou don't have permission!"));
 					}else{
 						p.sendMessage(VanillaFunTools.Color("&cCould not find a player with that name!"));
