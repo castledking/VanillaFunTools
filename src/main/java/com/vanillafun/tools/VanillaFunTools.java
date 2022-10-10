@@ -37,10 +37,6 @@ public final class VanillaFunTools extends JavaPlugin {
 		getCommand("setspawn").setExecutor(new SetSpawnCommand(this));
 		getCommand("spawn").setExecutor(new SpawnCommand(this));
 		getCommand("fly").setExecutor(new FlyCommand());
-		getCommand("clear").setExecutor(new ClearCommand());
-		getCommand("tsp").setExecutor(new TeleportCommand());
-		getCommand("gm").setExecutor(new GamemodeCommand());
-		getCommand("fart").setExecutor(new FartCommand());
 
 		// Listeners
 		getServer().getPluginManager().registerEvents(new SpawnListener(this), this);
