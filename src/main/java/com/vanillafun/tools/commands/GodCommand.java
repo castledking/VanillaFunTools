@@ -28,7 +28,7 @@ public class GodCommand implements CommandExecutor {
 
 		}else{
 			if(args.length == 0){
-				System.out.println("&7Usage: &e/god &6(playerName)");
+				System.out.println("&7Usages: &e/god &6(playerName)");
 			}
 			String playerName = args[0];
 			Player target = Bukkit.getServer().getPlayerExact(playerName);
